@@ -6,7 +6,7 @@ import com.tgsight.nifi.processors.ExampleProcessor.{E, P, R}
 
 import scala.jdk.CollectionConverters._
 
-class ExampleProcessorSpec extends FunSpec with Matchers {
+class TemplateProcessorSpec extends FunSpec with Matchers {
   it("success relation") {
     val in: String = "Hello world"
 
