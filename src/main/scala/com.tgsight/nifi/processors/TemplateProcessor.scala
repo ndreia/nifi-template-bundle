@@ -12,7 +12,7 @@ import org.apache.nifi.processor.util.StandardValidators
 import org.apache.nifi.processor.{ProcessContext, ProcessSession, Relationship}
 
 import com.tgsight.nifi.ops._
-import com.tgsight.nifi.processors.ExampleProcessor._
+import com.tgsight.nifi.processors.TemplateProcessor._
 import com.tgsight.nifi.{FlowFileNotNull, ScalaProcessor, _}
 
 @Tags(Array("custom", "scala"))
@@ -49,7 +49,7 @@ class TemplateProcessor extends ScalaProcessor with FlowFileNotNull {
   }
 }
 
-object ExampleProcessor {
+object TemplateProcessor {
   object P {
     val example: PropertyDescriptor = new PropertyDescriptor.Builder()
       .name("example")

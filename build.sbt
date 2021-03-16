@@ -34,7 +34,7 @@ libraryDependencies ++= Seq(
 
 libraryDependencies ++= Seq(
   "org.scala-lang" % "scala-library"  % scalaVersion.value,
-  "org.scalatest"  %% "scalatest"     % "3.0.8"      % Test
+  "org.scalatest"  %% "scalatest"     % "3.2.6"      % Test
 )
 
 scalacOptions ++= Seq(

@@ -1,12 +1,13 @@
 package com.tgsight.nifi.processors
 
 import org.apache.nifi.util.TestRunners
-import org.scalatest.{FunSpec, Matchers}
-import com.tgsight.nifi.processors.ExampleProcessor.{E, P, R}
+import org.scalatest.funspec.AnyFunSpec
+import org.scalatest.matchers.should.Matchers
+import com.tgsight.nifi.processors.TemplateProcessor.{E, P, R}
 
 import scala.jdk.CollectionConverters._
 
-class TemplateProcessorSpec extends FunSpec with Matchers {
+class TemplateProcessorSpec extends AnyFunSpec with Matchers {
   it("success relation") {
     val in: String = "Hello world"
 
